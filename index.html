@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<title>Kinopoisk Bot • Movie Intelligence</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Kinopoisk Bot – фильмдер мен сериалдарды ұсынатын Telegram ботқа арналған сайт">
+<meta name="keywords" content="kinopoisk bot, telegram bot, фильмдер, сериалдар">
+<meta name="robots" content="index, follow">
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Montserrat',sans-serif}
+body{
+background:linear-gradient(135deg,#0f0c29,#302b63,#24243e);
+color:#fff;overflow-x:hidden}
+
+/* HERO */
+.hero{height:100vh;display:flex;align-items:center;justify-content:center;text-align:center}
+.hero h1{
+font-size:4rem;
+background:linear-gradient(90deg,#ff512f,#dd2476);
+-webkit-background-clip:text;color:transparent;
+animation:neon 3s infinite alternate}
+.hero p{margin-top:20px;font-size:1.3rem;color:#ddd}
+@keyframes neon{from{text-shadow:0 0 10px #ff512f}to{text-shadow:0 0 30px #dd2476}}
+
+/* BUTTON */
+.tg-btn{
+margin-top:35px;display:inline-flex;align-items:center;gap:12px;
+padding:16px 32px;border-radius:50px;
+background:linear-gradient(90deg,#1da1f2,#0d6efd);
+color:#fff;font-size:1.1rem;font-weight:600;text-decoration:none;
+box-shadow:0 0 30px rgba(0,136,255,.6);transition:.4s}
+.tg-btn:hover{transform:scale(1.08);box-shadow:0 0 50px rgba(0,136,255,.9)}
+.tg-btn i{font-size:1.4rem}
+
+/* SECTION */
+section{padding:80px 10%}
+.card{
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(15px);
+border-radius:20px;padding:30px;margin-bottom:40px;
+box-shadow:0 0 40px rgba(255,0,100,.25);transition:.4s}
+.card:hover{transform:translateY(-10px) scale(1.02);
+box-shadow:0 0 70px rgba(255,0,150,.45)}
+.card h2{margin-bottom:15px;color:#ff7eb3}
+ul{padding-left:20px}
+ul li{margin-bottom:10px}
+
+/* FOOTER */
+footer{text-align:center;padding:30px;color:#aaa;font-size:.9rem}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+  <div>
+    <h1>Kinopoisk Bot</h1>
+    <p>Фильмдер мен сериалдарды таңдауға көмектесетін Telegram бот</p>
+
+    <a href="https://t.me/kinopoisk_movie_bot" class="tg-btn" target="_blank">
+      <i class="fab fa-telegram-plane"></i>
+      Telegram Bot-қа өту
+    </a>
+  </div>
+</div>
+
+<section>
+
+<div class="card">
+<h2>Сайттың негізгі мақсаты</h2>
+<p>
+Қолданушыларға фильмдер мен сериалдарды тез әрі ыңғайлы табуға көмектесу.
+Сайт Telegram-дағы Kinopoisk Bot-қа бағыттап, пайдаланушыға сапалы ұсыныс алуға мүмкіндік береді.
+</p>
+</div>
+
+<div class="card">
+<h2>Сайт қандай мәселені шешеді?</h2>
+<p>
+Көп адамдар қандай фильм немесе сериал көру керегін білмейді.
+Бұл сайт сол мәселені шешіп, уақытты үнемдейді және дұрыс таңдау жасауға көмектеседі.
+</p>
+</div>
+
+<div class="card">
+<h2>Сайтты кімдер қолданады?</h2>
+<ul>
+<li>Фильм және сериал көретін қолданушылар</li>
+<li>Telegram боттарды пайдаланатын адамдар</li>
+<li>Кино жаңалықтарын қадағалайтын жастар</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Қолданушы аудиториясының жасы</h2>
+<p>
+Негізгі аудитория — <b>13–30 жас</b>.  
+Бұл жас аралығындағы адамдар онлайн платформалар мен Telegram-ды белсенді қолданады.
+</p>
+</div>
+
+<div class="card">
+<h2>Командалық жұмыста боттың рөлі</h2>
+<p>
+Kinopoisk Bot — жобаның негізгі функционалдық бөлігі.
+Ол фильмдер туралы ақпарат береді, рейтингтерді көрсетеді
+және қолданушыға жеке ұсыныстар жасайды.
+</p>
+</div>
+
+<div class="card">
+<h2>Жоба ішінде кім неге жауапты?</h2>
+<ul>
+<li><b>Frontend developer</b> — сайт дизайны мен интерфейс</li>
+<li><b>Bot developer</b> — Telegram бот логикасы</li>
+<li><b>Backend developer</b> — деректер мен API</li>
+<li><b>Project manager</b> — жоспарлау және бақылау</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Сайт жасау үшін қанша уақыт жеткілікті?</h2>
+<ul>
+<li>Жоспарлау — 1 күн</li>
+<li>Дизайн және HTML/CSS — 2 күн</li>
+<li>Telegram бот жасау — 2–3 күн</li>
+<li>Тестілеу — 1 күн</li>
+</ul>
+<p><b>Жалпы: 5–7 күн</b></p>
+</div>
+
+</section>
+
+<footer>
+© 2026 • Kinopoisk Bot • Student Project
+</footer>
+
+</body>
+</html>
